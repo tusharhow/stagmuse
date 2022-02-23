@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621069451750",
+    "project_id": "stagemuse-1c3f3",
+    "storage_bucket": "stagemuse-1c3f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621069451750:android:b78522028d5662d021d627",
+        "android_client_info": {
+          "package_name": "com.stagemuse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621069451750-6luf5mb2bgn5g21r57ge01p3bvg18lc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvJFDYryPNQtoPn_MBXHoT402reqNWYTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621069451750-6luf5mb2bgn5g21r57ge01p3bvg18lc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
