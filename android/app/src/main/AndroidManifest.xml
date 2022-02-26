@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.stagemuse">
    <application
-        android:label="Stagemuse"
+        android:label="Stagemuse Fashion"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

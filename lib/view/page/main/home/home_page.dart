@@ -23,10 +23,10 @@ class HomePage extends StatelessWidget {
         }
         return Scaffold(
           appBar: AppBar(
-            title: Text(
-              "STAGEMUSE",
-              style: semiBold22(colorThird),
-            ),
+            title: Text("STAGEMUSE Fashion",
+                style: TextStyle(
+                  fontSize: 25,
+                )),
             actions: [
               ChatButtonWidget(yourId: yourId),
               const SizedBox(width: margin),

@@ -128,10 +128,10 @@ class _MainAppState extends State<MainApp> {
           ),
           child: MaterialApp(
             navigatorKey: navigatorKey,
-            title: "Stagemuse",
+            title: "Stagemuse Fashion",
             theme: CustomTheme.lightTheme(context),
             debugShowCheckedModeBanner: false,
-            home: const AllPodcast(),
+            home: const LandingPage(),
           ),
         ),
       ),

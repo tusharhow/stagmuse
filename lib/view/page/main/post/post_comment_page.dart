@@ -160,12 +160,18 @@ class PostCommentPage extends StatelessWidget {
                                       CommentPost.fromMap(
                                           doc.data() as Map<String, dynamic>);
 
-                                  return CardPostMainCommentWidget(
-                                    postId: postId,
-                                    userId: userId,
-                                    yourId: yourId,
-                                    comment: comment,
-                                    commentId: doc.id,
+                                  return Dismissible(
+                                    key: Key(doc.id),
+                                    onDismissed: (direction) {
+                                      doc.reference.delete();
+                                    },
+                                    child: CardPostMainCommentWidget(
+                                      postId: postId,
+                                      userId: userId,
+                                      yourId: yourId,
+                                      comment: comment,
+                                      commentId: doc.id,
+                                    ),
                                   );
                                 },
                               ).toList(),
